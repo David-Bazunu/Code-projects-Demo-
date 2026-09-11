@@ -1,1 +1,1 @@
-# Code-projects-Demo-
+This repository being my first attempt to build proper web application software contains projects focused on creating interactive web experiences, browser-based applications, and 2D and 3D browser games. Each project is designed to apply programming concepts to practical, working solutions.
