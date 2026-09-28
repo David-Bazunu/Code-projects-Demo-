@@ -1,0 +1,35 @@
+#main-body {
+    background-image:url("Netflix.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 700px;
+}
+#login {
+    background-color:red;
+    color:white;
+    border-radius:50px;
+    border:none;
+    margin-left:670px;
+    margin-bottom: 600px;
+    font-size:medium;   
+}
+#login-body{
+    background-color:black;
+}
+#red{
+    color:red;
+   }
+#submit{
+    background-color:red;
+    color:white;
+    border-radius:50px;
+    border:none;
+    margin-left:50px;
+}
+#round{
+    color:red;
+    width:200px;
+    margin-left:600px;
+    margin-top:400px;
+}
+ 
