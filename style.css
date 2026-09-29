@@ -1,0 +1,91 @@
+#main-body {
+    background-image:url("mike-kenneally-TD4DBagg2wE-unsplash.jpg"); 
+    background-size:cover;
+    background-position:center; 
+}
+#main-content {
+    background-color:burlywood;
+    width:500px;
+    text-align:center;
+    height:1600px;
+    margin-left:auto;
+    margin-right:auto;
+    font-family:"Times new roman",serif;
+    font-style:italic;
+}
+hr {
+    background-color:brown;
+    margin:50px;
+    padding:2px;
+    border-color:brown;
+}
+h1 {
+    padding-bottom:-50px;
+    padding-top:70px;
+}
+p {
+    font-style:italic;
+}
+h2 {
+    padding-bottom:-90px;
+}
+.name,.price {
+    display:inline-block;
+}
+.name{
+    padding-right:250px;
+    text-align:left;
+}
+.price {
+   padding-left:-30px;
+    text-align:right;
+}
+a:hover {
+    color:white;
+}
+img {
+    width:10%;
+}
+#coffee-body , #snack-body{
+    background-image:url("mike-kenneally-TD4DBagg2wE-unsplash.jpg");
+    background-position:center;
+    background-size:cover;
+    border-radius:50px;
+}
+#beverages,#snacks {
+    background-color: burlywood;
+    width:400px;
+    text-align: center;
+    background-position:center;
+    margin:auto;
+}
+#beverages button,#snacks button {
+    margin-top:50px;
+}
+#beverages select,#snacks select {
+    margin-top:50px;
+}
+#beverages button,#snacks button {
+    font-size:large;
+    color:white;
+    background-color:brown;
+    border-color:brown;
+    border-radius:50px;
+    width:300px;
+}
+#beverages button:hover {
+    color:brown;
+    background-color:white;
+}
+#flavor,#sandwich {
+    border-radius:50px;
+    color:white;
+    background-color:brown;
+    border-color:brown;
+}
+#flavor:hover,#sandwich:hover {
+    background-color: white;
+    color:brown;
+    border-color:brown;
+}
+
