@@ -1,0 +1,36 @@
+body {
+	background-color:gray;
+}
+#content {
+	text-align:center;
+	background-color:white;
+	background-position:center;
+	height:100%;
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+}
+#left-section,#center-section,#right-section {
+	display:inline-block;
+}
+
+hr {
+	height:2px;
+	background-color:black;
+	border-color:black;
+	width:80%;
+}
+section {
+	background-color:white;
+	width:80%;
+	background-position:center;
+	height:100%;
+}
+img {
+	padding-top:5%;
+	width:50%;
+	height:50%;
+}
+p {
+	padding-bottom:20px;
+}
