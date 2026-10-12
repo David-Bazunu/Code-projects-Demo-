@@ -1,0 +1,51 @@
+body {
+	background-color:lightblue;
+}
+#card {
+	background-color:white;
+	background-position:center;
+	text-align:center;
+	width:50%;
+	margin-top:100px;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:20px;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+#card:hover {
+	transform:scale(1.1);
+	background-color:burlywood;
+	color:blue;
+	transition:transform 0.3s, background-color 0.3s ease;
+}
+button {
+	font-size:20px;
+	border:2px solid blue;
+	border-radius:20px;
+	color:blue;
+}
+button:hover {
+	background-color:blue;
+	color:white;
+}
+.message {
+	background-color:white;
+	background-position:center;
+	text-align:center;
+	width:50%;
+	margin-top:100px;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:20px;
+	padding-top:30px;
+	padding-bottom:30px;
+	display:none;
+}
+.message:target {
+	display:block;
+}
+.message:hover {
+	transform:skewX(10deg);
+	transition:transform 0.5s,background-color 0.5s ease;
+}
