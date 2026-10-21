@@ -43,6 +43,11 @@ button {
   border-radius:7px;
   font-family:"arial",sans-serif;
 }
+fieldset input[type"radio"]:checked+label {
+  appearance:circle;
+  accent-color:green;
+  color:green;
+}
 textarea {
   margin-bottom:-20px;
 }
