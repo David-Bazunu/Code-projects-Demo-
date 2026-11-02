@@ -1,0 +1,62 @@
+body {
+	background-color:midnightblue;
+}
+
+section {
+	width:30%;
+	margin:100px auto;
+	border:2px solid white;
+	border-radius:5px;
+	color:white;
+}
+h1, p {
+	background-position:center;
+	text-align:center;
+	margin-bottom:30px;
+}
+pre input,pre select,pre textarea {
+	width:330px;
+	margin-bottom:10px;
+}
+pre label,pre input,pre select,pre textarea {	
+	margin-left:12.5%;
+}
+label {
+	font-size:15px;
+	font-style:bold;
+}
+div {
+	margin-left:50px;
+	margin-top:2px;
+	margin-bottom:20px;
+}
+hr {
+	width:80%;
+}
+a {
+	text-decoration:none;
+	color:white;
+}
+a:hover {
+	text-decoration:underline;
+	color:white;
+}
+nav {
+	text-align:center;
+	background-position:center;
+	margin-top:10px;
+	margin-bottom:10px;	
+}
+button {
+	text-align: center;
+	background-position: center;
+	margin-bottom:50px;
+	width:73%;
+	margin-left:14%;
+	height:50px;
+	border-radius:5px;
+}
+
+
+
+
