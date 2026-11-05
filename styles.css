@@ -1,0 +1,30 @@
+section {
+	width:300px;
+	border-radius:10px;
+	border:2px solid;
+	margin-bottom:50px;
+}
+nav {
+	display:flex;
+	justify-content:space-evenly;
+	text-align:center;
+	background-position:center;
+
+}
+h1 {
+	text-align:center;
+	background-position:center;
+}
+input {
+	margin-left:10px;
+}
+section {
+	border-color:gray;
+}
+section:hover {
+	border-color:yellow;
+	box-shadow:0px 2px 2px yellow;
+}
+input {
+	accent-color:yellow;
+}
