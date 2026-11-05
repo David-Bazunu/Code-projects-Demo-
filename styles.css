@@ -1,0 +1,36 @@
+section {
+	background-position:center;
+	text-align:center;
+	border:50px solid black;
+	width:700px;
+	height:500px;
+	margin:100px auto;
+	filter:blur(5px);
+}
+#paint {
+	background-color:red;
+	width:500px;
+	height:400px;
+	margin:18px auto;
+	padding-top:50px;
+}
+#box1 {
+	background-color:yellow;
+	width:300px;
+	height:70px;
+	margin:auto;
+}
+#box2 {
+	background-color:brown;
+	width:300px;
+	height:100px;
+	margin:30px auto;
+	border-radius:2px 2px 3px 30px;
+
+}
+#box3 {
+	background-color:burlywood;
+	width:300px;
+	height:100px;
+	margin:30px auto;
+}
