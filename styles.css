@@ -1,0 +1,67 @@
+body{
+	background-color:green;
+}
+div {
+	width:10%;
+	height:80%;
+	border-radius:5px;
+	border:1.5px solid black;
+	background-color:white;
+	padding:10px;
+}
+.top-left {
+	display:flex;
+	margin-bottom:50px;
+}
+.center {
+	display:flex;
+	justify-content:space-evenly;
+	font-size:50px;
+}
+.bottom-right {
+	transform:rotate(180deg);
+	display:flex;
+	margin-top:50px;
+}
+.bottom-right:last-of-type {
+	margin-top:0px;
+}
+.top-left:first-of-type {
+	margin-bottom:0px;
+}
+section {
+	display:flex;
+}
+#second-card span.top-left,#fourth-card span.top-left {
+	margin-bottom:10px;
+}
+#second-card span.bottom-right,#fourth-card span.bottom-right {
+	margin-top:10px;
+}
+#second-card nav span {
+	transform: rotate(180deg);
+}
+#third-card,#fifth-card {
+	color:red;
+}
+#third-card nav span {
+	transform:rotate(180deg);
+}
+#third-card span.top-left,#fifth-card span.top-left {
+	margin-bottom:-5px;	
+}
+#third-card span.bottom-right,#fifth-card span.bottom-right {
+	margin-top:-5px;	
+}
+nav {
+	display:flex;
+	justify-content:space-evenly;
+}
+#fourth-card nav:last-of-type span.center {
+	transform:rotate(180deg);
+}
+section {
+	display:flex;
+	justify-content:space-evenly;
+	margin-top:100px;
+}
